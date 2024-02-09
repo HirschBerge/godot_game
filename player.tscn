@@ -48,3 +48,5 @@ animation = &"up"
 rotation = 3.14159
 scale = Vector2(3.2003, -2.22913)
 shape = SubResource("CapsuleShape2D_mu6oo")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
